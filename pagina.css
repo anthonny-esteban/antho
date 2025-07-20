@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gestion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.gestion input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.gestion button {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gestion button:hover {
+    background-color: #219150;
+}
+
+.lista h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#listaPDF {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+#listaPDF li {
+    padding: 10px;
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eliminar {
+    background-color: #e74c3c;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.eliminar:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

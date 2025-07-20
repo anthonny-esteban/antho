@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Virtual - del Colegio Marino Adrian meza Rosales</title>
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Virtual - del Colegio Marino Adrian Meza Rosales</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Subir PDF</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gestion">
+            <h2>Agrega tus Libros (PDF)</h2>
+            <input type="file" id="inputPDF" accept="application/pdf">
+            <button id="btnAgregar">Agregar PDF</button>
+        </section>
+
+        <section class="lista">
+            <h2>Lista de PDFs</h2>
+            <ul id="listaPDF"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Biblioteca Virtual | Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="pagina.js"></script>
+</body>
+</html>
